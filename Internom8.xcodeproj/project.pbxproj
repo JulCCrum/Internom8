@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CAD9371F2C4DDF7E005F0FA3 /* Internom8App.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD9371E2C4DDF7E005F0FA3 /* Internom8App.swift */; };
+		CAD937212C4DDF7E005F0FA3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD937202C4DDF7E005F0FA3 /* ContentView.swift */; };
+		CAD937232C4DDF7E005F0FA3 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD937222C4DDF7E005F0FA3 /* Item.swift */; };
+		CAD937252C4DDF80005F0FA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAD937242C4DDF80005F0FA3 /* Assets.xcassets */; };
+		CAD937282C4DDF80005F0FA3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAD937272C4DDF80005F0FA3 /* Preview Assets.xcassets */; };
+		CAD937322C4DDF81005F0FA3 /* Internom8Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD937312C4DDF81005F0FA3 /* Internom8Tests.swift */; };
+		CAD9373C2C4DDF81005F0FA3 /* Internom8UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD9373B2C4DDF81005F0FA3 /* Internom8UITests.swift */; };
+		CAD9373E2C4DDF81005F0FA3 /* Internom8UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD9373D2C4DDF81005F0FA3 /* Internom8UITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CAD9372E2C4DDF81005F0FA3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAD937132C4DDF7E005F0FA3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAD9371A2C4DDF7E005F0FA3;
+			remoteInfo = Internom8;
+		};
+		CAD937382C4DDF81005F0FA3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAD937132C4DDF7E005F0FA3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAD9371A2C4DDF7E005F0FA3;
+			remoteInfo = Internom8;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CAD9371B2C4DDF7E005F0FA3 /* Internom8.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Internom8.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAD9371E2C4DDF7E005F0FA3 /* Internom8App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Internom8App.swift; sourceTree = "<group>"; };
+		CAD937202C4DDF7E005F0FA3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CAD937222C4DDF7E005F0FA3 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		CAD937242C4DDF80005F0FA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CAD937272C4DDF80005F0FA3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CAD9372D2C4DDF81005F0FA3 /* Internom8Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Internom8Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAD937312C4DDF81005F0FA3 /* Internom8Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Internom8Tests.swift; sourceTree = "<group>"; };
+		CAD937372C4DDF81005F0FA3 /* Internom8UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Internom8UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAD9373B2C4DDF81005F0FA3 /* Internom8UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Internom8UITests.swift; sourceTree = "<group>"; };
+		CAD9373D2C4DDF81005F0FA3 /* Internom8UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Internom8UITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CAD937182C4DDF7E005F0FA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAD9372A2C4DDF81005F0FA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAD937342C4DDF81005F0FA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CAD937122C4DDF7E005F0FA3 = {
+			isa = PBXGroup;
+			children = (
+				CAD9371D2C4DDF7E005F0FA3 /* Internom8 */,
+				CAD937302C4DDF81005F0FA3 /* Internom8Tests */,
+				CAD9373A2C4DDF81005F0FA3 /* Internom8UITests */,
+				CAD9371C2C4DDF7E005F0FA3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CAD9371C2C4DDF7E005F0FA3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CAD9371B2C4DDF7E005F0FA3 /* Internom8.app */,
+				CAD9372D2C4DDF81005F0FA3 /* Internom8Tests.xctest */,
+				CAD937372C4DDF81005F0FA3 /* Internom8UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CAD9371D2C4DDF7E005F0FA3 /* Internom8 */ = {
+			isa = PBXGroup;
+			children = (
+				CAD9371E2C4DDF7E005F0FA3 /* Internom8App.swift */,
+				CAD937202C4DDF7E005F0FA3 /* ContentView.swift */,
+				CAD937222C4DDF7E005F0FA3 /* Item.swift */,
+				CAD937242C4DDF80005F0FA3 /* Assets.xcassets */,
+				CAD937262C4DDF80005F0FA3 /* Preview Content */,
+			);
+			path = Internom8;
+			sourceTree = "<group>";
+		};
+		CAD937262C4DDF80005F0FA3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CAD937272C4DDF80005F0FA3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CAD937302C4DDF81005F0FA3 /* Internom8Tests */ = {
+			isa = PBXGroup;
+			children = (
+				CAD937312C4DDF81005F0FA3 /* Internom8Tests.swift */,
+			);
+			path = Internom8Tests;
+			sourceTree = "<group>";
+		};
+		CAD9373A2C4DDF81005F0FA3 /* Internom8UITests */ = {
+			isa = PBXGroup;
+			children = (
+				CAD9373B2C4DDF81005F0FA3 /* Internom8UITests.swift */,
+				CAD9373D2C4DDF81005F0FA3 /* Internom8UITestsLaunchTests.swift */,
+			);
+			path = Internom8UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CAD9371A2C4DDF7E005F0FA3 /* Internom8 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAD937412C4DDF81005F0FA3 /* Build configuration list for PBXNativeTarget "Internom8" */;
+			buildPhases = (
+				CAD937172C4DDF7E005F0FA3 /* Sources */,
+				CAD937182C4DDF7E005F0FA3 /* Frameworks */,
+				CAD937192C4DDF7E005F0FA3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Internom8;
+			productName = Internom8;
+			productReference = CAD9371B2C4DDF7E005F0FA3 /* Internom8.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CAD9372C2C4DDF81005F0FA3 /* Internom8Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAD937442C4DDF81005F0FA3 /* Build configuration list for PBXNativeTarget "Internom8Tests" */;
+			buildPhases = (
+				CAD937292C4DDF81005F0FA3 /* Sources */,
+				CAD9372A2C4DDF81005F0FA3 /* Frameworks */,
+				CAD9372B2C4DDF81005F0FA3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAD9372F2C4DDF81005F0FA3 /* PBXTargetDependency */,
+			);
+			name = Internom8Tests;
+			productName = Internom8Tests;
+			productReference = CAD9372D2C4DDF81005F0FA3 /* Internom8Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CAD937362C4DDF81005F0FA3 /* Internom8UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAD937472C4DDF81005F0FA3 /* Build configuration list for PBXNativeTarget "Internom8UITests" */;
+			buildPhases = (
+				CAD937332C4DDF81005F0FA3 /* Sources */,
+				CAD937342C4DDF81005F0FA3 /* Frameworks */,
+				CAD937352C4DDF81005F0FA3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAD937392C4DDF81005F0FA3 /* PBXTargetDependency */,
+			);
+			name = Internom8UITests;
+			productName = Internom8UITests;
+			productReference = CAD937372C4DDF81005F0FA3 /* Internom8UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CAD937132C4DDF7E005F0FA3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					CAD9371A2C4DDF7E005F0FA3 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					CAD9372C2C4DDF81005F0FA3 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = CAD9371A2C4DDF7E005F0FA3;
+					};
+					CAD937362C4DDF81005F0FA3 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = CAD9371A2C4DDF7E005F0FA3;
+					};
+				};
+			};
+			buildConfigurationList = CAD937162C4DDF7E005F0FA3 /* Build configuration list for PBXProject "Internom8" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CAD937122C4DDF7E005F0FA3;
+			productRefGroup = CAD9371C2C4DDF7E005F0FA3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CAD9371A2C4DDF7E005F0FA3 /* Internom8 */,
+				CAD9372C2C4DDF81005F0FA3 /* Internom8Tests */,
+				CAD937362C4DDF81005F0FA3 /* Internom8UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CAD937192C4DDF7E005F0FA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAD937282C4DDF80005F0FA3 /* Preview Assets.xcassets in Resources */,
+				CAD937252C4DDF80005F0FA3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAD9372B2C4DDF81005F0FA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAD937352C4DDF81005F0FA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CAD937172C4DDF7E005F0FA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAD937212C4DDF7E005F0FA3 /* ContentView.swift in Sources */,
+				CAD937232C4DDF7E005F0FA3 /* Item.swift in Sources */,
+				CAD9371F2C4DDF7E005F0FA3 /* Internom8App.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAD937292C4DDF81005F0FA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAD937322C4DDF81005F0FA3 /* Internom8Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAD937332C4DDF81005F0FA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAD9373C2C4DDF81005F0FA3 /* Internom8UITests.swift in Sources */,
+				CAD9373E2C4DDF81005F0FA3 /* Internom8UITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CAD9372F2C4DDF81005F0FA3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAD9371A2C4DDF7E005F0FA3 /* Internom8 */;
+			targetProxy = CAD9372E2C4DDF81005F0FA3 /* PBXContainerItemProxy */;
+		};
+		CAD937392C4DDF81005F0FA3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAD9371A2C4DDF7E005F0FA3 /* Internom8 */;
+			targetProxy = CAD937382C4DDF81005F0FA3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CAD9373F2C4DDF81005F0FA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CAD937402C4DDF81005F0FA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CAD937422C4DDF81005F0FA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Internom8/Preview Content\"";
+				DEVELOPMENT_TEAM = N9QB443496;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jackpotautomations.fyi.Internom8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CAD937432C4DDF81005F0FA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Internom8/Preview Content\"";
+				DEVELOPMENT_TEAM = N9QB443496;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jackpotautomations.fyi.Internom8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CAD937452C4DDF81005F0FA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N9QB443496;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jackpotautomations.fyi.Internom8Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Internom8.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Internom8";
+			};
+			name = Debug;
+		};
+		CAD937462C4DDF81005F0FA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N9QB443496;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jackpotautomations.fyi.Internom8Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Internom8.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Internom8";
+			};
+			name = Release;
+		};
+		CAD937482C4DDF81005F0FA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N9QB443496;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jackpotautomations.fyi.Internom8UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Internom8;
+			};
+			name = Debug;
+		};
+		CAD937492C4DDF81005F0FA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N9QB443496;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jackpotautomations.fyi.Internom8UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Internom8;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CAD937162C4DDF7E005F0FA3 /* Build configuration list for PBXProject "Internom8" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAD9373F2C4DDF81005F0FA3 /* Debug */,
+				CAD937402C4DDF81005F0FA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAD937412C4DDF81005F0FA3 /* Build configuration list for PBXNativeTarget "Internom8" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAD937422C4DDF81005F0FA3 /* Debug */,
+				CAD937432C4DDF81005F0FA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAD937442C4DDF81005F0FA3 /* Build configuration list for PBXNativeTarget "Internom8Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAD937452C4DDF81005F0FA3 /* Debug */,
+				CAD937462C4DDF81005F0FA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAD937472C4DDF81005F0FA3 /* Build configuration list for PBXNativeTarget "Internom8UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAD937482C4DDF81005F0FA3 /* Debug */,
+				CAD937492C4DDF81005F0FA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CAD937132C4DDF7E005F0FA3 /* Project object */;
+}
