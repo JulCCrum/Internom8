@@ -13,32 +13,40 @@ struct ContentView: View {
     @Query private var items: [Item]
 
     var body: some View {
-        NavigationSplitView {
-            List {
-                ForEach(items) { item in
-                    NavigationLink {
-                        Text("Item at \(item.timestamp, format: Date.FormatStyle(date: .numeric, time: .standard))")
-                    } label: {
+        NavigationView {
+            VStack {
+                Text("Hello, Internom8!")
+                    .font(.largeTitle)
+                Text("Welcome to my app!")
+                    .font(.subheadline)
+                Text("Select an item")
+                    .padding(.top)
+                List {
+                    ForEach(items) { item in
                         Text(item.timestamp, format: Date.FormatStyle(date: .numeric, time: .standard))
                     }
+                    .onDelete(perform: deleteItems)
                 }
-                .onDelete(perform: deleteItems)
             }
+            .navigationBarTitleDisplayMode(.inline)
             .toolbar {
+                ToolbarItem(placement: .principal) {
+                    Text("Internom8")
+                        .font(.largeTitle)
+                        .foregroundColor(.primary)
+                        .padding()
+                }
                 ToolbarItem(placement: .navigationBarTrailing) {
                     EditButton()
                 }
-                ToolbarItem {
+                ToolbarItem(placement: .navigationBarTrailing) {
                     Button(action: addItem) {
                         Label("Add Item", systemImage: "plus")
                     }
                 }
             }
-        } detail: {
-            Text("Select an item")
         }
     }
-
     private func addItem() {
         withAnimation {
             let newItem = Item(timestamp: Date())
