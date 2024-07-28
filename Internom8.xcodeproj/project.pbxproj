@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CA2664592C56F88E0092A633 /* Authentic8UI.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA2664582C56F88E0092A633 /* Authentic8UI.swift */; };
+		CA26645B2C56FF1E0092A633 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA26645A2C56FF1E0092A633 /* DashboardView.swift */; };
 		CAD9371F2C4DDF7E005F0FA3 /* Internom8App.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD9371E2C4DDF7E005F0FA3 /* Internom8App.swift */; };
 		CAD937212C4DDF7E005F0FA3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD937202C4DDF7E005F0FA3 /* ContentView.swift */; };
 		CAD937232C4DDF7E005F0FA3 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD937222C4DDF7E005F0FA3 /* Item.swift */; };
@@ -35,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CA2664582C56F88E0092A633 /* Authentic8UI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Authentic8UI.swift; sourceTree = "<group>"; };
+		CA26645A2C56FF1E0092A633 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
 		CAD9371B2C4DDF7E005F0FA3 /* Internom8.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Internom8.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAD9371E2C4DDF7E005F0FA3 /* Internom8App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Internom8App.swift; sourceTree = "<group>"; };
 		CAD937202C4DDF7E005F0FA3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -96,8 +100,10 @@
 		CAD9371D2C4DDF7E005F0FA3 /* Internom8 */ = {
 			isa = PBXGroup;
 			children = (
+				CA2664582C56F88E0092A633 /* Authentic8UI.swift */,
 				CAD9371E2C4DDF7E005F0FA3 /* Internom8App.swift */,
 				CAD937202C4DDF7E005F0FA3 /* ContentView.swift */,
+				CA26645A2C56FF1E0092A633 /* DashboardView.swift */,
 				CAD937222C4DDF7E005F0FA3 /* Item.swift */,
 				CAD937242C4DDF80005F0FA3 /* Assets.xcassets */,
 				CAD937262C4DDF80005F0FA3 /* Preview Content */,
@@ -260,7 +266,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA2664592C56F88E0092A633 /* Authentic8UI.swift in Sources */,
 				CAD937212C4DDF7E005F0FA3 /* ContentView.swift in Sources */,
+				CA26645B2C56FF1E0092A633 /* DashboardView.swift in Sources */,
 				CAD937232C4DDF7E005F0FA3 /* Item.swift in Sources */,
 				CAD9371F2C4DDF7E005F0FA3 /* Internom8App.swift in Sources */,
 			);

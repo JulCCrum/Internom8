@@ -17,6 +17,7 @@ struct ContentView: View {
             VStack {
                 Text("Hello, Internom8!")
                     .font(.largeTitle)
+                    .padding(.top)
                 Text("Welcome to my app!")
                     .font(.subheadline)
                 Text("Select an item")
@@ -34,7 +35,7 @@ struct ContentView: View {
                     Text("Internom8")
                         .font(.largeTitle)
                         .foregroundColor(.primary)
-                        .padding()
+                        .padding(.top)
                 }
                 ToolbarItem(placement: .navigationBarTrailing) {
                     EditButton()
